@@ -2,7 +2,9 @@ import React from 'react'
 
 const Greet = () => {
   return (
-    <div>Hello</div>
+    <div>
+    <h1>Hello There</h1>
+    </div>
   )
 }
 
