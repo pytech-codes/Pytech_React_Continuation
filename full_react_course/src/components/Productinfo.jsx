@@ -70,6 +70,14 @@ const Productinfo = () => {
         <li>{numbers}</li>
     </ul>
 ))}
+<h2>List Of Random users</h2>
+{ usersInfo.map(users => (
+    <ul key={numbers}>
+<li>{users.username}</li>
+<li>{users.email}</li>
+<li>{users.location}</li>
+    </ul>
+)) }
     </div>
   )
 }
